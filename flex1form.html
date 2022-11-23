@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flex-form.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=AYWbSf2LEpAzjFbr6NWIkqkL4SoNxrwkUqYYCKJLWjeQgL8M8lt-NDNLv94DK4aqsmiu0CivP6bBNb92yCPXcASIyf_Y1M5zgyN_3jVE7WLZf-3AFtCyLv5vDkUhuzM6hhvOxyMKXiikqpiuWnns_hPmOKB8i_hmcBR7AdWcBkwR5Y5sLPT9IP03d8dh-I4SlDvsfV8rl4dvjRf3BFuyg59MSXwjhLiPcGNcI2VsHhMNBY-8jl17huekTpFMXf-yLZlaDJ2lZuG76iz08Z6sxBo052H1FFj7LbxfC187zqwAFLaKp4tle9k8rxsR3W4m9YUrAqWIjUGDruSQEmpnNDdc-oasvJsNbD7ZkOhKI2QbYczOiaEMedOQsVnezg17VGIMGZMo43rRbTmUFhCXPvjCw18OkxAS6JlPtW9dJv45CqZGH6TIwrkZe5-XlAixW9MP9KatsDrPPawhGUJtUiLi5s6RxZF9pl56wuwJ5dtlYSCRNI-UEnoxrYCKDM23BTo_hSYXtBJOepMNOMe2RA" charset="UTF-8"></script></head>
+<body>
+    <header>Header</header>
+
+    <main>
+        <nav>Nav</nav>
+        <div class="background">
+            <article>
+            
+                <!-- Form -->
+                <form>
+                    <div class="container">
+                        
+                        <!-- For left items -->
+                        <div class="flex-item left">
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input type="text" id="name">
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="field">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone">
+                            </div>
+
+                            <!-- email -->
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                            </div>
+
+                            <!-- Pick date -->
+                            <div class="field">
+                                <label for="pick-up">Pickup Date/Time</label>
+                                <input type="datetime-local" id="datetime">
+                            </div>
+
+                            <!-- Pickplace -->
+                            <div class="field">
+                                <label for="pickPlace">Pickup Place</label>
+                                <select>
+                                    <option>Select 1</option>
+                                    <option>Select 2</option>
+                                </select>
+                            </div>
+
+                            <!-- drop off place -->
+                            <div class="field">
+                                <label for="dropOff">Dropoff Place</label>
+                                <input type="dropOff" id="dropOffl">
+                            </div>
+                        </div>
+                    
+                            <!-- for right items -->
+                        <div class="flex-item right">
+
+                            <!-- Radio button -->
+                            Which vehicle do you require?
+                            <div>
+                                <input type="radio" name="vehicle" id="van">
+                                <label for="van">Van</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="vehicle" id="jeepney">
+                                <label for="jeepney">Jeepney</label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio" name="vehicle" id="tricycle">
+                                <label for="tricycle">Tricycle</label>
+                            </div>
+                            
+                            <!-- Checkbox -->
+                            Extras: 
+                            <div>
+                            <input type="checkbox" name="extras" id="babySeat">
+                            <label for="babySeat">Baby Seat</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" name="extras" id="wheelChairAccess">
+                                <label for="wheelChairAccess">Wheelchair Access</label>
+                            </div>
+                            
+                            <div>
+                            <input type="checkbox" name="extras" id="stockTip">
+                            <label for="stockTip">Stock Tip</label>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- button -->
+                    <div class="btn-container">
+                        <input type="submit" value="Submit Booking">
+                    </div>
+                </form>
+            
+
+            </article>
+        </div>
+
+        <aside>Aside</aside>
+    </main>
+
+    <footer>Footer</footer>
+</body>
+</html>
